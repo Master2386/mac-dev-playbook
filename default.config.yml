@@ -66,6 +66,8 @@ homebrew_installed_packages:
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
+  - hudochenkov/sshpass
+  - cirruslabs/cli
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
@@ -86,7 +88,7 @@ mas_installed_apps: []
 mas_email: ""
 mas_password: ""
 
-osx_script: "~/.osx --no-restart"
+osx_script: "bash ~/.osx --no-restart"
 
 # Install packages from other package managers.
 # Note: You are responsible for making sure the required package managers are
